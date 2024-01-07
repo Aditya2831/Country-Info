@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    background-color:rgb(16, 24, 49)
+}
+
+.container{
+    background: linear-gradient(135deg, #040535, #7c6dc0);
+    width: 80vw;
+    max-width: 37.5em;
+    padding: 3em 2.5em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.62em;
+    box-shadow: 0 1.25em 1.8em black;
+}
+
+.search-wrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+}
+
+.search-wrapper button{
+    font-size: 1em;
+    background-color: rgba(35, 97, 130, 0.559);
+    color: beige;
+    padding: 0.8em 0;
+    border-radius: 1.5em;
+}
+
+.search-wrapper input{
+    font-size: 1em;
+    padding: 0 0 0.62em;
+    border: none;
+    border-bottom: 2px solid rgb(62, 156, 193);
+    outline: none;
+    color: rgb(26, 59, 91);
+}
+
+#result{
+    margin-top: 1.25rem;
+}
+
+.container .flag-img{
+    display: block;
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+}
+
+.container h2{
+    font-weight: 600;
+    color: rgb(179, 234, 234);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+}
+
+.data-wrapper{
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+}
+
+.container h4{
+    display: inline;
+    font-weight: 500;
+    color: darkturquoise;
+}
+
+.container span{
+    color: bisque;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: red;
+}
+
+#country-inp{
+    border-radius: 10px;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+#result{
+    text-align: left;
+}
